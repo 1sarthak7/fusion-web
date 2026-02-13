@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>HOLOGRAPHIC NEURAL INTERFACE // V-FINAL</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <video class="input_video" playsinline autoplay muted></video>
+
+    <div class="vignette-overlay"></div>
+    <div class="scan-line"></div>
+    <div class="noise-overlay"></div>
+    <div class="chromatic-aberration"></div>
+
+    <div class="hud-corner top-left"></div>
+    <div class="hud-corner top-right"></div>
+    <div class="hud-corner bottom-left"></div>
+    <div class="hud-corner bottom-right"></div>
+
+    <canvas class="output_canvas"></canvas>
+
+    <div class="ui-panel">
+        <div class="ui-header">
+            <h1 class="glitch-text" data-text="NEURAL ENGINE">NEURAL ENGINE</h1>
+            <div class="status-indicator"></div>
+        </div>
+        
+        <div class="data-row">
+            <div class="data-group">
+                <span class="label">SYSTEM STATE</span>
+                <span class="value" id="system-state">INITIALIZING</span>
+            </div>
+            <div class="data-group right">
+                <span class="label">ENERGY FLUX</span>
+                <span class="value" id="flux-metric">0.00 TEU</span>
+            </div>
+        </div>
+
+        <div class="data-row">
+            <div class="data-group">
+                <span class="label">NODES</span>
+                <span class="value" id="node-count">0</span>
+            </div>
+            <div class="data-group right">
+                <span class="label">FPS</span>
+                <span class="value" id="fps-count">00</span>
+            </div>
+        </div>
+
+        <div class="console-log" id="console-log">
+            > KERNEL: ACTIVE
+            > OPTICS: CALIBRATING...
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
