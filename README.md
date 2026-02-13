@@ -10,9 +10,6 @@
   <img src="https://img.shields.io/badge/LICENSE-MIT-ffffff?style=for-the-badge&logo=open-source-initiative&logoColor=000000" alt="License">
   <br>
   <br>
-
-  <img src="https://via.placeholder.com/800x450/000000/00FFD5?text=UPLOAD+YOUR+DEMO+GIF+HERE" alt="Holographic Interface Demo" width="100%">
-
 </div>
 
 ---
@@ -74,3 +71,38 @@ python -m http.server 8000
 
 # 4. Open your browser
 # Visit http://localhost:8000
+```
+
+⫸ OPERATIONAL GUIDE
+
+GESTURE	TRIGGER	VISUAL EFFECT
+
+PINCH	Thumb tip touches Index tip	Creates a localized energy singularity and spawns trails.
+
+DUAL FUSION	Left Index approaches Right Index	Triggers the Fusion Beam and changes UI color state.
+
+WAVE	Rapid hand movement	Generates turbulence in the floating particle field.
+STRETCH	Expanding palm span	Increases the tension and opacity of the neural web.
+
+⫸ CONFIGURATION
+You can tweak the physics engine directly in script.js within the CONFIG constant:
+
+JavaScript
+const CONFIG = {
+    colors: {
+        primary: { r: 0, g: 255, b: 213 }, // Base Cyan
+        warning: { r: 255, g: 0, b: 60 }   // Critical Red
+    },
+    physics: {
+        fusionThreshold: 0.15, // Sensitivity of fusion gesture
+        webDensity: 0.18       // Complexity of the web lines
+    },
+    render: {
+        glowStrength: 25,      // Intensity of the bloom effect
+        particleCount: 250     // Max particles (Performance trade-off)
+    }
+};
+<div align="center">
+<p>ENGINEERED FOR THE WEB | 2026</p>
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/STATUS-OPERATIONAL-00FFD5%3Fstyle%3Dplastic" alt="Status">
+</div>
