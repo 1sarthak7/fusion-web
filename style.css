@@ -223,3 +223,36 @@ body {
     from { opacity: 1; }
     to { opacity: 0.5; }
 }
+
+.watermark {
+    position: fixed;
+    bottom: 18px;
+    right: 24px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.4);
+    z-index: 9999;
+    backdrop-filter: blur(6px);
+    padding: 6px 12px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: all 0.4s ease;
+}
+
+.watermark a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.watermark:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(0, 150, 255, 0.4);
+}
+
+.watermark a:hover {
+    color: #00bfff;
+    text-shadow: 0 0 8px rgba(0, 191, 255, 0.8);
+}
