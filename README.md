@@ -1,13 +1,13 @@
 <div align="center">
 
-  <a href="https://github.com/YourUsername/holographic-neural-interface">
+  <a href="(https://github.com/1sarthak7/fusion-web.git)">
     <img src="https://readme-typing-svg.herokuapp.com?font=Rajdhani&weight=600&size=40&duration=3000&pause=1000&color=00FFD5&center=true&vCenter=true&width=600&lines=HOLOGRAPHIC+NEURAL+INTERFACE;RESEARCH+GRADE+AR+SYSTEM;DUAL-HAND+FUSION+ENGINE" alt="Typing SVG" />
   </a>
 
   <br>
   <img src="https://img.shields.io/badge/BUILD-PASSING-00FFD5?style=for-the-badge&logo=github&logoColor=000000" alt="Build Status">
   <img src="https://img.shields.io/badge/VERSION-5.0.0-FF003C?style=for-the-badge&logo=verizon&logoColor=white" alt="Version">
-  <img src="https://img.shields.io/badge/LICENSE-MIT-ffffff?style=for-the-badge&logo=open-source-initiative&logoColor=000000" alt="License">
+  <img src="https://img.shields.io/badge/LICENSE-Sarthak-ffffff?style=for-the-badge&logo=open-source-initiative&logoColor=000000" alt="License">
   <br>
   <br>
 </div>
@@ -61,7 +61,7 @@ Due to browser security policies regarding Webcam access (`getUserMedia`) and CO
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/YourUsername/holographic-neural-interface.git](https://github.com/YourUsername/holographic-neural-interface.git)
+git clone https://github.com/1sarthak7/fusion-web.git
 
 # 2. Navigate to the directory
 cd holographic-neural-interface
@@ -72,4 +72,5 @@ python -m http.server 8000
 # 4. Open your browser
 # Visit http://localhost:8000
 ```
-
+## author
+** Sarthak Bhopale
